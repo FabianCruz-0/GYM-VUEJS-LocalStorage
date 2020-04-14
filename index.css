@@ -1,0 +1,49 @@
+#app
+{
+    cursor:url("cursor.png"), auto;
+}
+p{
+    text-align: justify;
+    font-weight: bold;
+}
+body{
+    background-color: beige;
+    background: radial-gradient(circle, beige 90%, black 120%);
+    font-size: 2.1vw;
+}
+h5{
+    text-align: center;
+    font-size: 2.2vw;
+}
+h2{
+    font-size: 4vw;
+    text-align: center;
+    transition: transform 0.5s, background-color 0.7s;
+}
+h2:hover{
+    transform:scale(1.1,1.1);
+    background-color: rgb(233, 186, 155);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+#barra
+{
+    transition: transform 1s;
+}
+#barra:hover{
+    transform: scale(1.05,1.05);
+}
+.container{
+    min-height: 100vh;
+}
+.foot
+{
+    font-size: 1.4vw;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
